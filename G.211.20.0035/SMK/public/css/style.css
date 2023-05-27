@@ -1,0 +1,273 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        p {
+            color: #000000;
+        }
+
+        h1{
+            color: #E6E2C3;
+        }
+
+        header {
+            background-color: #227C70;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        nav {
+            background-color: #1C315E;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        main h2 {
+            margin: 0 0 20px 0;
+        }
+
+        button {
+            background-color: #1C315E;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover{
+            background-color: #284585;
+        }
+
+        button a {
+            color: #E6E2C3;
+            text-decoration: none;
+        }
+
+        footer {
+            width: auto;
+            margin-top: 375px;
+            background-color: #227C70;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .cover footer {
+            width: auto;
+            margin-top: auto;
+            background-color: #227C70;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .text-box {
+            width: 90%;
+            color: #88A47C;
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        
+        .text-box h1 {
+            font-size: 62px;
+        }
+        
+        .text-box p {
+            margin: 10px 0 40px;
+            font-size: 24px;
+            color: #E6E2C3;
+        }
+
+        .image-container {
+            width: 100%;
+            height: 400px;
+            background-color: #ccc;
+        }
+
+        img {
+            border: 1px solid black;
+            width: 100%;
+            height: 830px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        th {
+            background-color: #398bd3;
+            color: #ffffff;
+        }
+
+        /* Style the navbar */
+        nav {
+            background-color: #1C315E;
+            overflow: hidden;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        
+        nav li {
+            float: left;
+        }
+        
+        nav a {
+            display: block;
+            color: #E6E2C3;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        nav a:hover {
+            background-color: #111;
+        }
+        
+        /* Style the search form */
+        .searchbar form {
+            float: right;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .searchbar form input[type="text"] {
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 14px;
+            height: 34px;
+            padding: 6px 12px;
+            outline: none;
+        }
+        
+        .searchbar form button[type="submit"] {
+            background-color: #1C315E;
+            color: #E6E2C3;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            height: 34px;
+            outline: none;
+        }
+
+        a:link {
+            color: #E6E2C3;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #E6E2C3;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #E6E2C3;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:active {
+            color: #E6E2C3;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        
+        .form-container {
+			width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+		}
+		.form-container h2 {
+			width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+		}
+		.form-container p {
+			width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+		}
+		.form-container input[type="text"],
+		.form-container input[type="email"],
+        .form-container input[type="date"],
+        .form-container input[type="number"],
+		.form-container textarea {
+			width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+		}
+		.form-container textarea {
+			resize: none;
+			height: 150px;
+		}
+        .form-container select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+        }
+		.form-container input[type="submit"] {
+			display: block;
+			width: 100%;
+			padding: 10px;
+			font-size: 16px;
+			border: none;
+			border-radius: 5px;
+			background-color: #1C315E;
+			color: #E6E2C3;
+			cursor: pointer;
+		}
+		.form-container input[type="submit"]:hover {
+			background-color: #284585;
+		}
+		.form-container .required {
+			color: #f00;
+		}
